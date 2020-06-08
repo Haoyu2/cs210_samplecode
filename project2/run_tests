@@ -57,7 +57,7 @@ nameRE="(Exercise[1-${exerciseCount}]|Problem[1-${problemCount}])"
 # Set up the java classpath to include output files and the appropriate jars
 #basePath="$PROJECT_HOME/project${projectName:1:1}"
 basePath=.
-export CLASSPATH="$HOME/lib/algs4.jar"
+export CLASSPATH="$basePath/src/test/resources/algs4.jar"
 export CLASSPATH="$basePath/out:$CLASSPATH"
 export CLASSPATH="$basePath/src/test/resources/testingtools.jar:$CLASSPATH"
 export CLASSPATH="$basePath/src/test/resources/json-simple-3.1.0.jar:$CLASSPATH"
