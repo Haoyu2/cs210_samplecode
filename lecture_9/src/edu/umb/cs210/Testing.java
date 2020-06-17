@@ -8,7 +8,8 @@ import edu.umb.cs210.MergerSort.MergeSort;
 import edu.umb.cs210.MergerSort.MergeSortBU;
 import edu.umb.cs210.MergerSort.MergeSortX;
 import edu.umb.cs210.SelectionSort.SelectionSort;
-
+import edu.umb.cs210.quicksort.QuickSort;
+import edu.umb.cs210.quicksort.QuickSortX;
 
 
 public class Testing {
@@ -115,29 +116,35 @@ public class Testing {
     }
 
 
-//    public static void test5(){
-//        In in = new In(file[4]);
-//        String[] a = in.readAllStrings();
-//
-//        int len = 10000000;
-//        String[] b = new String[len];
-//        System.arraycopy(a,0,b,0,len);
-//        System.out.println("Array's length: " + b.length);
+    public static void test5(){
+        In in = new In(file[4]);
+        String[] a = in.readAllStrings();
+
+        int len = 10000;
+        String[] b = new String[len];
+        System.arraycopy(a,0,b,0,len);
+        System.out.println("Array's length: " + b.length);
 //        System.out.println("MergerSortX\tQuickSortX\tQuickSort\tQuickSort3Way");
-//        Stopwatch timer = new Stopwatch();
-//
-////        timer = new Stopwatch();
-////        MergeSort.sort(b);
-////        StdOut.print(timer.elapsedTime() + "s\t\t");
-////
+        Stopwatch timer = new Stopwatch();
+
 //        timer = new Stopwatch();
-//        MergeSortX.sort(b);
-//        StdOut.print(timer.elapsedTime() + "s\t");
+//        MergeSort.sort(b);
+//        StdOut.print(timer.elapsedTime() + "s\t\t");
 //
-////        Shuffle.knuth(a);
+        timer = new Stopwatch();
+        Quick.sort(b);
+        StdOut.print(timer.elapsedTime() + "s\t");
+//
 //        timer = new Stopwatch();
-//        QuickSortX.sort(b);
+//        QuickSort.sort(b);
 //        StdOut.print(timer.elapsedTime() + "s\t");
+
+//        StdRandom.shuffle(a);
+        timer = new Stopwatch();
+        QuickSortX.sort(b);
+        StdOut.print(timer.elapsedTime() + "s\t");
+
+
 //        timer = new Stopwatch();
 //        QuickSort.sort(b);
 //        StdOut.print(timer.elapsedTime() + "s\t");
@@ -146,7 +153,7 @@ public class Testing {
 //        QuickSort3way.sort(b);
 //        StdOut.print(timer.elapsedTime() + "s\t");
 //        System.out.println();
-//    }
+    }
 
 
     public static void main(String[] args) {
@@ -154,7 +161,7 @@ public class Testing {
 //        test1();
 //        test2();
 //        test3();
-        test4();
-//        test5();
+//        test4();
+        test5();
     }
 }

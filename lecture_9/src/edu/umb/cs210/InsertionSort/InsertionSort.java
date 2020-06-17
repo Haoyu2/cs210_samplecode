@@ -32,7 +32,14 @@ public class InsertionSort {
 
         }
     }
-
+    public static void sort(Comparable[] a, int start, int end) {
+        for (int i = start; i <= end; i++)
+            for (int j = i; j > start && (a[j].compareTo(a[j - 1]) < 0); j--) {
+                Comparable temp = a[j - 1];
+                a[j - 1] = a[j];
+                a[j] = temp;
+            }
+    }
     public static void main(String[] args) {
         Student[] students = new Student[]{
                 new Student("004", "John Doe", 18),
