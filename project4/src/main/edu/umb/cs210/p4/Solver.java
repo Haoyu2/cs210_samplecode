@@ -30,7 +30,11 @@ public class Solver {
 
     // Find a solution to the initial board (using the A* algorithm).
     public Solver(Board initial) {
-
+    // when we stop we have the node with the goal board
+        // so for this node and ite pre node and pre unit null
+        //push them into a stack
+        // and the stack is our solution which has the node from initial board
+        // to the goal board
     }
 
     // The minimum number of moves to solve the initial board.

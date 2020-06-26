@@ -19,7 +19,7 @@ public class Board {
     // tiles[i][j] = tile at row i and column j, and 0 represents the blank 
     // square.
     public Board(int[][] tiles) {
-        this.tiles = tiles;
+        this.tiles = cloneTiles();
     }
 
     // Tile at row i and column j.
