@@ -1,0 +1,151 @@
+
+
+Problem 1
+
+
+B  F I K N Q S V Z
+
+			
+			Z
+		V		S
+	N	 K   F 	  Q
+  B  I
+
+
+
+
+Problem 2
+
+
+R	Q	J	G	L 	M 	I 	H 	V
+11	9	3	4	5	7	8	10	12
+
+
+Problem 3
+
+		       G		
+	A	  		       T
+	   C	     J	        Z
+	 B		H	     Q      
+			     K	  
+			 	    O
+			 	  M
+
+
+Height:6
+Rank(M):7(A B C G H J K)  
+
+Preorder:
+G A C B T J H Q K O M Z
+
+Inorder:
+A B C G H J K M O Q T Z
+
+Postorder:
+B C A H M O K Q J Z T G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Problem 4
+	
+
+
+
+B	BQ  	P
+		  B   Q
+
+
+B<F<P
+
+   P
+BF     Q
+
+
+
+Ｆ<N<P
+    FP
+B   N    Q
+
+
+      
+    FP
+B   N   QW
+
+
+F<G<N
+    FP
+B   GN  QW
+
+G<J<N
+
+      J
+  F        P
+B   G    N    QW
+
+
+J<L<N
+
+
+      J
+  F        P
+B   G   LN  QW
+
+
+ G<H<J
+       J
+  F        P
+B   GH   LN  QW
+
+
+ Q<U<Ｗ
+       J
+  F          PU
+B   GH   LN  Q   W
+
+
+
+ W<X
+        J
+  F            PU
+B   GH     LN  Q   WX
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
