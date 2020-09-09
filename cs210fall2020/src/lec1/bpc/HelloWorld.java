@@ -1,6 +1,6 @@
 /*
 	
-	-classpath or -cp:  means the path to the source code
+	-classpath or -cp:  means the path to the java class bytecode
 
 	-d(destnation) : means the path for storing the output java class files
 
