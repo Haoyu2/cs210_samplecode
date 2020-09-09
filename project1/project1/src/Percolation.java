@@ -3,41 +3,39 @@ import stdlib.In;
 import stdlib.StdOut;
 
 public class Percolation {
-    ...
+
 
     // Constructs an n x n percolation system, with all sites blocked.
     public Percolation(int n) {
-        ...
     }
 
     // Opens site (i, j) if it is not already open.
     public void open(int i, int j) {
-        ...
     }
 
     // Returns true if site (i, j) is open, and false otherwise.
     public boolean isOpen(int i, int j) {
-        ...
+        return false;
     }
 
     // Returns true if site (i, j) is full, and false otherwise.
     public boolean isFull(int i, int j) {
-        ...
+        return false;
     }
 
     // Returns the number of open sites.
     public int numberOfOpenSites() {
-        ...
+        return 0;
     }
 
     // Returns true if this system percolates, and false otherwise.
     public boolean percolates() {
-        ...
+        return false;
     }
 
     // Returns an integer ID (1...n) for site (i, j).
     private int encode(int i, int j) {
-        ...
+        return 0;
     }
 
     // Unit tests the data type. [DO NOT EDIT]

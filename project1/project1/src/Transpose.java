@@ -11,12 +11,11 @@ public class Transpose {
     private static double[][] transpose(double[][] x) {
         // Create a new 2D matrix t (for transpose) with dimensions n x m, where m x n are the
         // dimensions of x.
-        ...
 
         // For each 0 <= i < m and 0 <= j < n, set t[j][i] to x[i][j].
-        ...
 
         // Return t.
-        ...
+
+        return null;
     }
 }

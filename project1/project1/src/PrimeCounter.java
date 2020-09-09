@@ -11,13 +11,13 @@ public class PrimeCounter {
     private static boolean isPrime(int x) {
         // For each 2 <= i <= x / i, if x is divisible by i, then x is not a prime. If no such i
         // exists, then x is a prime.
-        ...
+        return false;
     }
 
     // Returns the number of primes <= n.
     private static int primes(int n) {
         // For each 2 <= i <= n, use isPrime() to test if i is prime, and if so increment a count.
         // At the end return the count.
-        ...
+        return 0;
     }
 }

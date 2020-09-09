@@ -7,25 +7,25 @@ public class Rational {
     // Constructs a rational number whose numerator is x and denominator is 1.
     public Rational(long x) {
         // Set this.x to x and this.y to 1.
-        ...
+
     }
 
     // Constructs a rational number given its numerator x and denominator y.
     public Rational(long x, long y) {
         // Set this.x to x / gcd(x, y) and this.y to y / gcd(x, y).
-        ...
     }
 
     // Returns the sum of this rational number and other.
     public Rational add(Rational other) {
         // Sum of rationals a/b and c/d is the rational (ad + bc) / bd.
-        ...
+
+        return null;
     }
 
     // Returns the product of this rational number and other.
     public Rational multiply(Rational other) {
         // Product of rationals a/b and c/d is the rational ac / bd.
-        ...
+        return null;
     }
 
     // Returns true if this rational number is equal to other, and false otherwise.
@@ -41,7 +41,7 @@ public class Rational {
         }
 
         // Rationals a/b and c/d are equal iff a == c and b == d.
-        ...
+        return false;
     }
 
     // Returns a string representation of this rational number.

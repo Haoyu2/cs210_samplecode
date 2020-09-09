@@ -3,31 +3,30 @@ import stdlib.StdRandom;
 import stdlib.StdStats;
 
 public class PercolationStats {
-    ...
+
 
     // Performs m independent experiments on an n x n percolation system.
     public PercolationStats(int n, int m) {
-        ...
     }
 
     // Returns sample mean of percolation threshold.
     public double mean() {
-        ...
+        return 0.0;
     }
 
     // Returns sample standard deviation of percolation threshold.
     public double stddev() {
-        ...
+        return 0.0;
     }
 
     // Returns low endpoint of the 95% confidence interval.
     public double confidenceLow() {
-        ...
+        return 0.0;
     }
 
     // Returns high endpoint of the 95% confidence interval.
     public double confidenceHigh() {
-        ...
+        return 0.0;
     }
 
     // Unit tests the data type. [DO NOT EDIT]
