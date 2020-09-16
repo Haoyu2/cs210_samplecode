@@ -15,6 +15,15 @@ public class Transpose {
         // For each 0 <= i < m and 0 <= j < n, set t[j][i] to x[i][j].
 
         // Return t.
+        for (int i = 0; i < x.length; i++) {
+            for (int j = 0; j < x[0].length; j++) {
+                System.out.print(x[i][j]+ "\t");
+            }
+            System.out.println();
+        }
+
+
+//        int[][] t = new int[1][1];
 
         return null;
     }

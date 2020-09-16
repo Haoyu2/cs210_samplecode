@@ -10,6 +10,7 @@ public class Distance {
     }
 
     // Returns the Euclidean distance between the position vectors x and y.
+    //
     private static double distance(double[] x, double[] y) {
         // Sum up the squares of (x[i] - y[i]), where 0 <= i < x.length, and return the square
         // root of the sum.

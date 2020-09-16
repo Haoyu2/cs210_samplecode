@@ -7,15 +7,20 @@ public class Rational {
     // Constructs a rational number whose numerator is x and denominator is 1.
     public Rational(long x) {
         // Set this.x to x and this.y to 1.
+        this.x = x;
+        this.y = 1;
 
     }
 
     // Constructs a rational number given its numerator x and denominator y.
     public Rational(long x, long y) {
         // Set this.x to x / gcd(x, y) and this.y to y / gcd(x, y).
+
     }
 
     // Returns the sum of this rational number and other.
+
+    // 4 / 2, 6 / 3 ... are representing the same rational number of 2 / 1
     public Rational add(Rational other) {
         // Sum of rationals a/b and c/d is the rational (ad + bc) / bd.
 
