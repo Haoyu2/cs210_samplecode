@@ -13,6 +13,7 @@ public class Rational {
     }
 
     // Constructs a rational number given its numerator x and denominator y.
+    // overload a methods
     public Rational(long x, long y) {
         // Set this.x to x / gcd(x, y) and this.y to y / gcd(x, y).
 
