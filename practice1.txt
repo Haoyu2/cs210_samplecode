@@ -1,0 +1,221 @@
+1.
+
+	1	2	3
+	4	5	6
+	7	8	9
+
+1 + 25 + 81 = 107
+
+
+2.
+
+Eculidean algorithm for computer the GCD
+	a	b
+	27	72
+			27 = 72 * 0 + 27
+	72	27
+				  54
+	27 	18	72 = 27 * 2 + 18 
+
+	18 	9
+	9	0
+
+
+3
+
+A recursive algorithm can travse all the items of a linked
+
+a. length of the linked list
+b. acumulated sum of all the items
+
+
+4, 
+
+<: this is redirection operation on the command line, such
+
+First java Mystery
+	x = "AB"
+	y = "BA"
+
+output:	"ABBA BAAB"
+
+|:  this is a pipeline operation on the commnad line, such that the output of the first program gets feeded into the second program
+
+Second,
+	x = "ABBA"
+	y = "BAAB"
+Output: "ABBABAAB BAABABBA"
+
+
+Third,
+
+	x = "ABBABAAB"
+	y = "BAABABBA"
+Output: "ABBABAABBAABABBA BAABABBAABBABAAB"	
+
+
+
+5,
+
+
+	lg_2^(12/3)  =  2  Quadratic 
+					1 Linear
+					3 Qubic
+
+					n Exponential
+
+	2 3 4 	
+
+
+6,
+	N*100*1000 
+
+
+7, 
+
+	T: 	int 	4
+		float	4
+		doube	8
+	12
+
+	T[100]  : 1200
+
+
+8,
+
+	Queue: First in First out
+	Stack: 	First in Last Out
+
+
+9,
+
+a.
+0	1	2	3	4	5	6	7	8	9
+0	1	2	3	4	5	6	7	8	9	
+
+(8,1)  (8, 1)
+
+0	1	2	3	4	5	6	7	1	9
+
+(7,6)  (7, 6)
+
+0	1	2	3	4	5	6	6	1	9
+
+(9,2)  (9, 2)
+
+0	1	2	3	4	5	6	6	1	2
+
+(7,8)  (6, 1)
+0	1	2	3	4	5	1	6	1	2
+
+(4,6)  (4, 1)
+0	1	2	3	1	5	1	6	1	2
+
+
+(6,0)  (1, 0)
+0	0	2	3	1	5	1	6	1	2
+
+(4,1)  (0, 0)
+0	0	2	3	1	5	1	6	1	2
+
+
+b.
+
+0	1	2	3	4	5	6	7	8	9
+0	0	2	3	1	5	1	6	1	2
+
+
+0:	0,1,4,6,7,8
+2:	2,9
+3:	3
+5:	5
+
+
+10,
+
+C	G	H	Y	V	T	S	M	Z	N 	(C)
+
+C	G	H	Y	V	T	S	M	Z	N 	(G)
+
+C	G	H	Y	V	T	S	M	Z	N 	(H)
+
+
+C	G	H	Y	V	T	S	M	Z	N 	(M) (Y, M)
+C	G	H	M	V	T	S	Y	Z	N 	(M) (Y, M)
+
+
+11,
+
+D J M R S T Y Z O F
+
+D J M R S T Y Z O F
+D J M R S T Y O Z F
+D J M R S T O Y Z F
+....
+D J M O R S T Y Z F
+
+
+3
+
+
+12,
+
+  i               j
+V U Z L S Y R E I J
+
+    i             j
+V U Z L S Y R E I J  (Z,J) swap
+
+
+      i         j  
+V U J L S Y R E I Z  
+
+          i     j  
+V U J L S Y R E I Z  (Y,I) swap
+
+            i j  
+V U J L S I R E Y Z  (Y,I) swap
+
+
+ 			  i	
+              j  
+V U J L S I R E Y Z  (Y,I) 
+
+ 			    i	
+              j  
+V U J L S I R E Y Z  (Y,I) 
+
+
+Stop scanning
+
+V and E get swapped
+
+
+			j	
+E U J L S I R V Y Z 
+
+
+(0,j-1): E (next call)
+
+
+13,
+
+
+0	1	2	3	4	5	6	7	8	9
+	Z 	V   Q   B   K   F   S   N   I
+
+
+a, F
+b, I
+
+
+14,
+
+
+int(0.2 - 0.1) == 0
+int(0.1 - 0.2) == 0
+
+h.
+
+Solution at 44 has a typo. Should be like this
+public Character next () { return s. charAt ( i-- ); }

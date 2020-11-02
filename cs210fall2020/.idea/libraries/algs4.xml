@@ -2,6 +2,7 @@
   <library name="algs4">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/libraries/algs4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libraries/GrowingTree.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
