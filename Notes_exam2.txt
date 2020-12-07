@@ -1,0 +1,121 @@
+1,
+
+0	1	2	3	4	5	6	7	8	9
+	Z   V   S   N   K   F   Q   B   I
+
+
+	swap(Z, I), I gets sunk down
+
+
+2,
+
+R : 11, Q : 9, J : 3, G : 4, L : 5, M : 7,
+I : 8,  H : 10, V: 12
+
+
+3,
+
+In the email as a picture.
+
+
+4,
+            Q
+		BFN     P
+
+ 
+    FQ
+B   GJN    PW
+
+
+     FJQ
+B   G   N    PW
+
+       J
+  F          Q
+B   GH   LN    PUW
+
+
+
+
+       J
+  F          QU
+B   GH   LN  P  WX
+
+
+
+
+5,
+
+	10
+8r
+  9r
+
+
+right rotate: 8r-9r
+
+     10
+  9r
+8r
+
+
+left rotate: 10-9r-8r
+
+    9
+ 8r   10r
+
+flip color: 9, 8r, 10r
+
+	9r
+   8  10
+
+
+   6r 
+ 4    9r
+     8  10
+
+left rotate :  6r
+
+         12
+	  9r
+  6r     10
+4   8
+
+
+right rotate: 12 
+
+
+	  9 
+   6r	 12r
+  4  8  10
+
+
+flip color: 9
+
+
+6,
+
+J  D  W  E  V  U  L  P  F  K   X   Y
+10 4  23 5  22 21 12 16 6  11  24  25
+   
+0  4  3  0  2   1 2  1  1  1    4  0  
+
+h(k) = k mod 5
+
+0: J,E,Y
+1: U,P,F,K
+2: V, L
+3: W
+4: D, X
+
+
+7,
+
+a, bfs
+0, 1, 2, 5, 4, 3, 6 
+
+
+b,dfs
+
+0,1,4,2,3,5,6
+
+
