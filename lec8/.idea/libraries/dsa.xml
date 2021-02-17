@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="dsa">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/lib/dsa.jar!/" />
+      <root url="jar://$USER_HOME$/lib/stdlib.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
